@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double balance = 1000;
+    int choice;
+    double amount;
+
+    while(true)
+    {
+        cout << "\n===== Simple Bank System =====\n";
+        cout << "1. Deposite\n";
+        cout << "2. Withdrow\n";
+        cout << "3. Chek Balance\n";
+        cout << "4. Exit\n";
+        cout << "Pick your opton: ";
+        cin >> choice;
+
+        switch(choice)
+        {
+            case 1:
+                cout << "Enter ammount to deposite: ";
+                cin >> amount;
+                balance = balance + amount;
+                cout << "Money added succesfuly\n";
+                break;
+
+            case 2:
+                cout << "Enter ammount to withdrow: ";
+                cin >> amount;
+                if(amount > balance)
+                {
+                    cout << "Insuficient balnce bro\n";
+                }
+                else
+                {
+                    balance = balance - amount;
+                    cout << "Take your cash\n";
+                }
+                break;
+
+            case 3:
+                cout << "Your curent balance is: " << balance << endl;
+                break;
+
+            case 4:
+                cout << "Thanks for using our bank system\n";
+                break;
+
+            default:
+                cout << "Wrong opton try agian\n";
+        }
+
+        if(choice == 4)
+        {
+            break;
+        }
+    }
+
+    return 0;
+}
