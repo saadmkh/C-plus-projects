@@ -1,0 +1,28 @@
+‎#include <iostream>
+‎using namespace std;
+‎
+‎int main() {
+‎    int num, min, max;
+‎
+‎    cout << "Enter 5 numbers:\n";
+‎
+‎   
+‎    cin >> num;
+‎    min = max = num;
+‎
+‎   
+‎    for (int i = 1; i < 5; i++) {
+‎        cin >> num;
+‎
+‎        if (num < min)
+‎            min = num;
+‎
+‎        if (num > max)
+‎            max = num;
+‎    }
+‎
+‎    cout << "Minimum is: " << min << endl;
+‎    cout << "Maximum is: " << max << endl;
+‎
+‎    return 0;
+‎}
