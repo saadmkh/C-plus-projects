@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string tasks[100];   // fixed size
+    int count = 0;       // how many tasks added
+    int choice;
+
+    do {
+        cout << "\n1. Add Task\n";
+        cout << "2. View Tasks\n";
+        cout << "3. Exit\n";
+        cout << "Enter choice: ";
+        cin >> choice;
+        cin.ignore();
+
+        if (choice == 1) {
+            if (count < 100) {
+                cout << "Enter task: ";
+                getline(cin, tasks[count]);
+                count++;
+                cout << "Task added\n";
+            } else {
+                cout << "Task list full\n";
+            }
+        }
+
+        else if (choice == 2) {
+            if (count == 0) {
+                cout << "No tasks yet\n";
+            } else {
+                for (int i = 0; i < count; i++) {
+                    cout << i + 1 << ". " << tasks[i] << endl;
+                }
+            }
+        }
+
+    } while (choice != 3);
+
+    return 0;
+}
