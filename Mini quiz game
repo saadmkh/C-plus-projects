@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int score = 0;
+    int ans;
+
+    cout << "mini quiz\n";
+    cout << "answer the questions by typing the option number\n\n";
+
+    cout << "q1) what is 2 + 2 ?\n";
+    cout << "1) 3\n2) 4\n3) 5\n";
+    cin >> ans;
+
+    if(ans == 2)
+        score++;
+
+    cout << "\nq2) which language is used for programming?\n";
+    cout << "1) c++\n2) html\n3) css\n";
+    cin >> ans;
+
+    if(ans == 1)
+        score++;
+
+    cout << "\nq3) how many days are in a week?\n";
+    cout << "1) 5\n2) 7\n3) 10\n";
+    cin >> ans;
+
+    if(ans == 2)
+        score++;
+
+    cout << "\nquiz finished\n";
+    cout << "your score is " << score << " out of 3\n";
+
+    if(score == 3)
+        cout << "good job";
+    else if(score == 2)
+        cout << "not bad";
+    else
+        cout << "try again";
+
+    return 0;
+}
