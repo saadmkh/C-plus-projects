@@ -1,5 +1,5 @@
-##💻 C++ Assignments & Practice
-
+💻 C++ Assignments & Practice
+--
 Welcome to my C++ practice repository.
 This repo contains the assignments, lab tasks, and practice programs that I completed during my Computer Science coursework.
 
@@ -8,7 +8,7 @@ It serves as a record of my learning progress and problem-solving practice in C+
 ---
 
 📚 About This Repository
-
+--
 This repository is mainly used to:
 
 - Store C++ assignments given by my instructor
@@ -21,7 +21,7 @@ Most of the programs here are small exercises or lab tasks focused on understand
 ---
 
 🧠 Topics Covered
-
+--
 Some of the concepts practiced in this repository include:
 
 - Basic C++ syntax
@@ -31,26 +31,23 @@ Some of the concepts practiced in this repository include:
 - Functions
 - Arrays
 - Strings
-- Pointers
-- Structures
-- Basic Object-Oriented Programming
 
 ---
 
 📂 Repository Structure
-
+--
 Each file or folder represents a specific assignment, task, or programming exercise.
----
+
 
 ⚠️ Note
-
+--
 These programs are educational exercises and were written for practice and coursework purposes.
 They may not follow full production-level coding standards, but they reflect my learning progress in C++.
 
 ---
 
 🚀 Learning Journey
-
+--
 This repository is part of my journey to improve my programming skills and software development knowledge.
 
 More projects and improvements will be added as I continue learning.
@@ -63,6 +60,7 @@ Repository Structure
 Each file or folder represents a specific assignment, lab task, or practice problem given during coursework or solved for learning purposes.
 
 Note
+--
 
 These programs are mainly educational exercises and may not represent production-level projects. They are part of my learning journey in C++.
 
